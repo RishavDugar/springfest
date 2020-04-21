@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+body {
+  box-sizing: border-box; }
+
+.heading {
+  text-transform: uppercase;
+  background-image: url(../../img/academics.jpg);
+  background-size: cover;
+  font-size: 5rem;
+  -webkit-background-clip: text;
+  margin-top: 15vh;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke-color: #333;
+  -webkit-text-stroke-width: 1px; }
+
+@keyframes remove {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+svg {
+  margin-top: -13vh; }
+
+#drop1 {
+  animation: remove 1.5s linear infinite; }
+
+#drop2 {
+  animation: remove 1.5s linear infinite;
+  animation-delay: 0.5s; }
+
+#drop3 {
+  animation: remove 1.5s linear infinite;
+  animation-delay: 1s; }
+
+.achieve {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-image: linear-gradient(to bottom, lightblue, white, lightblue);
+  display: inline-block;
+  text-align: center; }

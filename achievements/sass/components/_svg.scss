@@ -1,0 +1,31 @@
+@keyframes remove {
+
+    0% {
+        opacity:0;
+    }
+
+    50%{
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+svg {
+    margin-top:-13vh;
+}
+
+#drop1{
+    animation:remove 1.5s linear infinite;
+}
+
+#drop2{
+    animation:remove 1.5s linear infinite;
+    animation-delay:0.5s;
+}
+
+#drop3{
+    animation:remove 1.5s linear infinite;
+    animation-delay: 1s;
+}

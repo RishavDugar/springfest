@@ -1,0 +1,22 @@
+@keyframes enter {
+    0% {
+        opacity:0;
+        transform:scale(0);
+    }
+    50% {
+        transform:scale(1.02);
+    }
+    100% {
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+@keyframes glide {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}

@@ -1,0 +1,12 @@
+.heading {
+    text-transform: uppercase;
+    background-image: url(../../img/academics.jpg);
+    background-size: cover;
+    font-size:5rem;
+    -webkit-background-clip: text;
+    margin-top:15vh;
+    background-clip: text;
+    color:transparent;
+    -webkit-text-stroke-color: #333;
+    -webkit-text-stroke-width: 1px;
+}
