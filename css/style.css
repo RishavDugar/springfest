@@ -1,0 +1,88 @@
+@keyframes enter {
+  0% {
+    opacity: 0;
+    transform: scale(0); }
+  50% {
+    transform: scale(1.02); }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes glide {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.footer__heading {
+  text-align: center; }
+
+.footer__heading__primary {
+  font-size: 7rem;
+  top: 0;
+  margin: 0;
+  padding-top: 5vh;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #44250c;
+  text-shadow: 0rem 0.5rem 0.5rem #221002;
+  text-decoration: underline;
+  animation: enter 0.8s ease-in-out; }
+
+.footer__heading__secondary {
+  font-size: 5rem;
+  top: 0;
+  margin: 0;
+  padding-top: 15vh;
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #44250c;
+  text-shadow: 0rem 0.5rem 0.5rem #221002;
+  animation: glide 1s ease-in-out 0.6s;
+  animation-fill-mode: backwards; }
+
+.footer__heading__list {
+  list-style: none;
+  padding-top: 10vh;
+  animation: glide 1s ease-in-out 0.6s;
+  animation-fill-mode: backwards; }
+
+.footer__heading__item {
+  display: inline-block;
+  font-size: 4rem;
+  margin-right: 2rem; }
+
+.footer__heading__link, .footer__heading__link:link, .footer__heading__link:visited {
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #44250c;
+  text-shadow: 0rem 0.5rem 0.5rem #221002;
+  transition: all 0.2s; }
+
+.footer__heading__link:hover {
+  color: white;
+  display: inline-block;
+  transform: translateY(-3px); }
+
+.footer .link, .footer .link:link, .footer .link:visited {
+  color: #44250c;
+  display: inline-block; }
+
+.footer .link:hover {
+  color: white;
+  transform: translateY(-0.5rem);
+  text-shadow: 0rem 0.5rem 0.5rem rgba(34, 16, 2, 0.4); }
+
+.footer .link:active {
+  color: transparent;
+  transform: translateY(-0.2rem); }
+
+.footer {
+  background-image: url(../../img/contact.jpg);
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  left: 0; }
