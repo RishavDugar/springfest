@@ -10,7 +10,7 @@
     &__intro{
         height:20rem;
         border-radius: 2rem;
-        margin-top:-32vh;
+        margin-top:-37vh;
         position: relative;
         z-index:10;
         animation:introheading 0.8s ease-in-out 2s backwards;
@@ -28,6 +28,7 @@
         padding:1.5rem;
         background-color:wheat;
         border-radius: 2rem;
+        margin: 0 auto;
     }
 
     @include clearfix;
@@ -37,7 +38,7 @@
     }
 
     .col-1-of-3{
-        width:calc(( 100% - 2 * #{$gutter-horizontal}) / 3);
+        width:calc(( 100% - 2 * #{$gutter-horizontal}) / 3 );
     }
 
     .col-2-of-3{

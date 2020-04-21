@@ -14,8 +14,8 @@
 	}
 
 	&__logo-box{
-		height: 20rem;
-		width:20rem;
+		height: 15rem;
+		width:15rem;
 		border-radius: 50%;
 		border:3px dashed white;
 		position:absolute;
@@ -65,7 +65,7 @@
 		background-image: url(../img/me.jpg);
 		background-size: cover;
 		background-position: center;
-		border-radius:2rem;
+		border-radius:1.8rem;
 		transition:all 0.4s;
 
 		&:hover {
@@ -74,7 +74,7 @@
 	}
 
 	&__text {
-		font-size: 2rem;
+		font-size: 2.2rem;
 		color:#333;
 		padding:1rem;
 	}
